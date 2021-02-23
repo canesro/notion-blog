@@ -159,8 +159,6 @@ const RenderPost = ({ post, redirect, preview }) => {
           <div className="posted">Posted: {getDateStr(post.Date)}</div>
         )}
 
-        <hr />
-
         {(!post.content || post.content.length === 0) && (
           <p>This post has no content</p>
         )}
